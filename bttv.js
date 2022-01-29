@@ -15,15 +15,15 @@ function replaceText (node) {
         return;
     }
 
-    let content = node.innerHTML;
-    
+    let content = node.textContent;
+
     // Use the emoteMap for replacements.
     for (let [word, emote] of emoteMap) {
       content = content.replace(word, `<img src='${emote}'/>`);
     }
-
-    // Now that all the replacements are done, perform the DOM manipulation.
-    node.innerHTML = content;
+    
+    let cleanHTML = DOMPurify.sanitize(content, { USE_PROFILES: { html: true } });
+    node.innerHTML = cleanHTML; 
   }
   else {
     // This node contains more than just text, call replaceText() on each

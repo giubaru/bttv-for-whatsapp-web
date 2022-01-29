@@ -10,7 +10,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.web.whatsapp.com/*"],
-      "js": ["./emotes.js", "./bttv.js"]
+      "js": ["purify.min.js", "./emotes.js", "./bttv.js"]
     }
   ],
   "permissions": [
