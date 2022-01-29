@@ -6,3 +6,7 @@
 3. Press the button `Load Temporary Add-on...`
 4. Select the `manifest.json` file downloaded.
 5. Refresh your whatsapp web tab.
+
+
+## Example:
+![BetterTTV WPP](https://i.imgur.com/SUsOqDr.png)
