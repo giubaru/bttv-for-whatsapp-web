@@ -1,3 +1,7 @@
+/*
+  Based on https://github.com/mdn/webextensions-examples/tree/master/emoji-substitution
+*/
+
 const TWITCH_ID = '90075649';
 
 let emotesEndpoints = [

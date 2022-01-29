@@ -3,6 +3,7 @@
   "name": "BTTV for WhatsApp Web",
   "version": "1.0",
   "description": "Use BTTV emotes in WhatsApp Web",
+  "homepage_url": "https://github.com/giubaru/bttv-for-whatsapp-web",
   "icons": {
     "48": "icons/1x.png"
   },

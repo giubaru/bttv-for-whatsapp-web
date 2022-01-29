@@ -1,5 +1,5 @@
 /*
-  Based in https://github.com/mdn/webextensions-examples/tree/master/emoji-substitution
+  Based on https://github.com/mdn/webextensions-examples/tree/master/emoji-substitution
 */
 
 let emoteMap = tmpEmotes;
