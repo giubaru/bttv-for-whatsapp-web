@@ -19,7 +19,7 @@ function replaceText (node) {
 
     // Use the emoteMap for replacements.
     for (let [word, emote] of emoteMap) {
-      content = content.replace(word, `<img src='${emote}'/>`);
+      content = content.replaceAll(word, `<img src='${emote}'/>`);
     }
     
     let cleanHTML = DOMPurify.sanitize(content, { USE_PROFILES: { html: true } });
