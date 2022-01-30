@@ -8,7 +8,8 @@ let emotesEndpoints = [
   `https://api.betterttv.net/3/cached/frankerfacez/users/twitch/${TWITCH_ID}`,
   `https://api.betterttv.net/3/cached/users/twitch/${TWITCH_ID}`,
   'https://api.betterttv.net/3/users/5ff8d0610a24220c8e1d86da',
-  'https://api.betterttv.net/3/cached/emotes/global'
+  'https://api.betterttv.net/3/cached/emotes/global',
+  'https://api.betterttv.net/3/cached/users/twitch/31400525' // supinic emotes
 ]
 
 let tmpEmotes = new Map();
