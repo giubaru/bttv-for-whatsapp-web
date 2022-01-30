@@ -15,7 +15,7 @@ function replaceText (node) {
         return;
     }
 
-    let content = node.textContent;
+    let content = node.innerHTML;
 
     // Use the emoteMap for replacements.
     for (let [word, emote] of emoteMap) {
