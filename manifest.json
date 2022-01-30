@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "BTTV for WhatsApp Web",
   "version": "1.0",
   "description": "Use BTTV emotes in WhatsApp Web",
