@@ -3,6 +3,9 @@
   <a href="https://chrome.google.com/webstore/detail/bttv-for-whatsapp-web/olinljnfkcekmlkfojgfponnfojnikae" target="_blank">
       <img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png" alt="Chrome Store">
   </a>
+  <a href="https://addons.mozilla.org/en-US/firefox/addon/bttv-for-whatsapp-web/" target="_blank">
+      <img src="https://extensionworkshop.com/assets/img/documentation/publish/get-the-addon-178x60px.dad84b42.png" alt="Firefox Store">
+  </a>
 </p>
 
 ## Steps (firefox):
